@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokémon Virtual - Bichinho de Estimação</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main id="game-container">
+        <div id="pokemon-selection" class="screen">
+            <img src="https://static.vecteezy.com/system/resources/previews/027/127/591/original/pokemon-logo-pokemon-icon-transparent-free-png.png" alt="Logo Pokémon" class="logo">
+            <div class="pokemon-grid">
+                <div class="pokemon-card" data-pokemon="Pikachu">
+                    <h2>Pikachu</h2>
+                    <img src="https://64.media.tumblr.com/927365f0bbdd1f3d2f852bac8759f89b/tumblr_mh8a7wx1WG1rfjowdo1_r2_500.gif" alt="Pikachu">
+                    <p>Pikachu é um Pokémon de aparência fofa e carismática, com corpo amarelo, orelhas pontudas com as pontas pretas e bochechas vermelhas que emitem eletricidade.</p>
+                    <button>Escolher Pikachu</button>
+                </div>
+                <div class="pokemon-card" data-pokemon="Sylveon">
+                    <h2>Sylveon</h2>
+                    <img src="https://i.pinimg.com/originals/d5/8a/df/d58adf5bc33ead140a8a0c707456de91.gif" alt="Sylveon">
+                    <p>Sylveon é um Pokémon do tipo Fada, com uma aparência elegante e encantadora. Seu corpo é esbranquiçado, com grandes olhos expressivos e orelhas longas que terminam em laços rosa.</p>
+                    <button>Escolher Sylveon</button>
+                </div>
+                <div class="pokemon-card" data-pokemon="Growlithe">
+                    <h2>Growlithe</h2>
+                    <img src="https://i.pinimg.com/originals/99/e3/b9/99e3b927767054af0f732efcf1ea60d8.gif" alt="Growlithe">
+                    <p>Growlithe é um Pokémon do tipo Fogo, com aparência de um pequeno cão listrado laranja e preto, com um corpo ágil e orelhas pontudas.</p>
+                    <button>Escolher Growlithe</button>
+                </div>
+            </div>
+        </div>
+        <div id="game-screen" class="screen hidden">
+            <h1 id="pokemon-name"></h1>
+            <img id="pokemon-gif" src="" alt="Pokemon">
+            <div class="stats-grid">
+                <div class="stat">
+                    <h2>Saúde</h2>
+                    <div class="progress-bar"><div id="health-bar" class="progress"></div></div>
+                </div>
+                <div class="stat">
+                    <h2>Força</h2>
+                    <div class="progress-bar"><div id="strength-bar" class="progress"></div></div>
+                </div>
+                <div class="stat">
+                    <h2>Fome</h2>
+                    <div class="progress-bar"><div id="hunger-bar" class="progress"></div></div>
+                </div>
+                <div class="stat">
+                    <h2>Cansaço</h2>
+                    <div class="progress-bar"><div id="tiredness-bar" class="progress"></div></div>
+                </div>
+                <div class="stat">
+                    <h2>Afeto</h2>
+                    <div class="progress-bar"><div id="affection-bar" class="progress"></div></div>
+                </div>
+            </div>
+            <div class="info-grid">
+                <p><strong>Idade:</strong> <span id="age">1</span></p>
+                <p><strong>Nível:</strong> <span id="level">1</span></p>
+                <p><strong>Gênero:</strong> <span id="gender"></span></p>
+            </div>
+            <div class="button-grid">
+                <button id="feed-btn">Alimentar</button>
+                <button id="rest-btn">Descansar</button>
+                <button id="pet-btn">Acariciar</button>
+                <button id="train-btn">Treinar</button>
+            </div>
+            <button id="return-btn" class="return-button">Voltar à Página Inicial</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
+
