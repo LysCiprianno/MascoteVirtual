@@ -18,7 +18,7 @@ Este projeto é um jogo de **bichinho virtual** onde os usuários podem escolher
 **Descrição**: Pikachu é um Pokémon ágil e cheio de energia, conhecido por seu charme e personalidade cativante. Com um corpo amarelo vibrante e orelhas pontudas, suas bochechas vermelhas são capazes de liberar descargas elétricas impressionantes. Ele é brincalhão, leal e sempre pronto para uma aventura, tornando-se um verdadeiro amigo e companheiro para quem tem a sorte de tê-lo ao lado.
  
 ### 2. Sylveon
-![Sylveon](https://a.deviantart.net/avatars-big/a/c/accirose.gif?8)
+![Sylveon](https://i.pinimg.com/originals/87/eb/f7/87ebf774eca20c3a0fa81bfb37823825.gif)
 **Descrição**: Sylveon é um Pokémon elegante e encantador do tipo Fada, com uma aparência delicada que atrai todos ao seu redor. Seu corpo branco e as longas fitas rosa e azuis que decoram suas orelhas e flancos transmitem uma aura mágica e carinhosa. Sylveon é gentil e atencioso, sempre disposto a oferecer carinho e proteção a seus amigos. É conhecido por sua habilidade de curar e acalmar com suas habilidades especiais de fada.
  
 ### 3. Growlithe
