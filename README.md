@@ -31,7 +31,7 @@ Este projeto é um jogo de **bichinho virtual** onde os usuários podem escolher
 - **Lógica de Programação**: Gerenciamento de estados e interação com os botões.
  
 ## Como Usar
-1. Acesse a página do projeto [aqui](#) para iniciar.
+1. Acesse a página do projeto [aqui](https://lysciprianno.github.io/MascoteVirtual/) para iniciar.
 2. Escolha um Pokémon clicando na imagem correspondente.
 3. Interaja com seu Pokémon usando os botões para alimentá-lo, deixá-lo descansar e outras ações.
  
